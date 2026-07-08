@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aterriza - Tu primer empleo formal en Ecuador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <div class="logo">
+                <span class="logo-icon">✈️</span>
+                <span class="logo-text">Aterriza</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#problema">El Problema</a></li>
+                <li><a href="#solucion">Solución</a></li>
+                <li><a href="#estadisticas">Datos</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#sumate" class="cta-link">Únete</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Tu primer empleo formal está más cerca de lo que crees</h1>
+            <p class="hero-subtitle">Conectamos jóvenes profesionales ecuatorianos con oportunidades reales, sin la barrera de "experiencia previa"</p>
+            <div class="hero-cta">
+                <button class="btn btn-primary" onclick="scrollToSection('sumate')">Comienza Ahora</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('problema')">Conoce Más</button>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+    </section>
+
+    <!-- El Problema -->
+    <section id="problema" class="section problem-section">
+        <div class="container">
+            <h2 class="section-title">El Desafío Real</h2>
+            <p class="section-subtitle">La paradoja del primer empleo en Ecuador</p>
+            
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="card-icon">📚</div>
+                    <h3>Estudio Completo</h3>
+                    <p>Miles de jóvenes profesionales se gradúan cada año con títulos universitarios y preparación académica sólida.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="card-icon">🚫</div>
+                    <h3>Requisito Imposible</h3>
+                    <p>Las empresas exigen "2-3 años de experiencia mínimo" para posiciones junior, generando un círculo vicioso.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="card-icon">😔</div>
+                    <h3>Frustración y Desempleo</h3>
+                    <p>Muchos terminan en empleos informales o sin relación a su carrera, desperdiciando talento y potencial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solución -->
+    <section id="solucion" class="section solution-section">
+        <div class="container">
+            <h2 class="section-title">Nuestra Solución</h2>
+            <p class="section-subtitle">Aterriza: El puente entre formación y oportunidad</p>
+            
+            <div class="solution-steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Validación de Talento</h3>
+                    <p>Evaluamos tus competencias, habilidades técnicas y soft skills reales, no solo títulos.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>Mentorías Personalizadas</h3>
+                    <p>Conectamos contigo profesionales experimentados para prepararte para el mercado laboral.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Bolsa de Oportunidades</h3>
+                    <p>Acceso exclusivo a empresas que valoran el talento joven y están dispuestas a invertir en tu crecimiento.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <h3>Acompañamiento Integral</h3>
+                    <p>Te apoyamos en preparación de CVs, entrevistas y tus primeros meses en el nuevo empleo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estadísticas -->
+    <section id="estadisticas" class="section stats-section">
+        <div class="container">
+            <h2 class="section-title">Realidades del Mercado Laboral Ecuatoriano</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">68%</div>
+                    <p>de graduados tienen dificultad encontrando empleo formal en su primer año</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">45%</div>
+                    <p>de ofertas junior exigen experiencia previa inexistente</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3-6</div>
+                    <p>meses promedio de búsqueda intensiva para primer empleo</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">87%</div>
+                    <p>termina en empleos informales o fuera de su carrera</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="section testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Historias de Éxito</h2>
+            <p class="section-subtitle">Jóvenes profesionales que ya aterrizaron</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Terminé mi carrera en Ingeniería Comercial sin saber por dónde empezar. Aterriza me conectó con una empresa que apostó en mi talento. Hoy soy Analista Junior en una multinacional."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MC</div>
+                        <div>
+                            <p class="author-name">María Cortés</p>
+                            <p class="author-role">Analista Financiero</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Las mentorías fueron clave. No solo me prepararon para las entrevistas, sino que me dieron confianza. Ahora trabajo en Development en una startup tech."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JP</div>
+                        <div>
+                            <p class="author-name">Javier Pérez</p>
+                            <p class="author-role">Desarrollador Frontend</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Estaba a punto de irme del país. Encontré una bolsa de empresas que realmente valoran a profesionales jóvenes. Hoy soy Especialista en Recursos Humanos."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">KV</div>
+                        <div>
+                            <p class="author-name">Karen Valdez</p>
+                            <p class="author-role">Especialista en RRHH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="sumate" class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para Aterrizar?</h2>
+                <p>Únete a cientos de jóvenes profesionales que ya encontraron su camino</p>
+                <form class="cta-form" id="ctaForm">
+                    <input type="text" placeholder="Tu nombre completo" required>
+                    <input type="email" placeholder="Tu email" required>
+                    <select required>
+                        <option value="">Selecciona tu profesión</option>
+                        <option value="ingenieria">Ingeniería (Sistemas, Comercial, etc.)</option>
+                        <option value="administracion">Administración de Empresas</option>
+                        <option value="marketing">Marketing/Comunicación</option>
+                        <option value="contador">Contabilidad/Finanzas</option>
+                        <option value="rrhh">Recursos Humanos</option>
+                        <option value="derecho">Derecho</option>
+                        <option value="otro">Otra carrera</option>
+                    </select>
+                    <textarea placeholder="Cuéntanos brevemente tu situación actual" rows="3" required></textarea>
+                    <button type="submit" class="btn btn-primary btn-large">¡Quiero Aterrizar!</button>
+                </form>
+                <p class="privacy-text">Nos comprometemos a proteger tu privacidad. Tus datos no serán compartidos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Aterriza</h4>
+                    <p>Conectando talento joven con oportunidades reales en Ecuador.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#problema">El Problema</a></li>
+                        <li><a href="#solucion">Solución</a></li>
+                        <li><a href="#estadisticas">Datos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="mailto:hola@aterriza.ec">hola@aterriza.ec</a></li>
+                        <li><a href="tel:+593">+593 (0) XXX-XXXX</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">TikTok</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aterriza. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
